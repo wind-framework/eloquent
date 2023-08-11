@@ -1,0 +1,21 @@
+{
+    "name": "wind-framework/eloquent",
+    "description": "Wind framework eloquent.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wind\\Eloquent\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pader",
+            "email": "ypnow@163.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "pader/amphp-eloquent-mysql": "^1.0@beta"
+    }
+}
