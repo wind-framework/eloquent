@@ -16,7 +16,7 @@
     ],
     "minimum-stability": "beta",
     "require": {
-        "wind-framework/wind-framework": "1.0.x-dev",
+        "wind-framework/wind-framework": "^1.0",
         "pader/amphp-eloquent-mysql": "^1.0@beta"
     }
 }

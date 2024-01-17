@@ -24,7 +24,7 @@ class User extends \Illuminate\Database\Eloquent\Model {
 
     public function books()
     {
-        return $this->hasMany(Books::class)
+        return $this->hasMany(Books::class);
     }
 
 }
