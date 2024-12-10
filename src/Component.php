@@ -19,7 +19,7 @@ class Component implements \Wind\Base\Component
 
     public static function start($worker)
     {
-        $app = di()->get(Container::class);
+        $app = Container::getInstance();
 
         if (class_exists(Dispatcher::class)) {
             if (!$app->bound('events')) {
